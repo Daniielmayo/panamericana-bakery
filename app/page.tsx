@@ -110,7 +110,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-[8px] overflow-hidden">
+              <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-[18px] overflow-hidden">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Panadería Panamericana a través de los años"
