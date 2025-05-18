@@ -76,7 +76,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="#location"
-                  className="bg-secondary rounded-[8px] hover:bg-secondary/90 text-gray-800 px-6 py-3 rounded-md font-medium inline-flex items-center transition-colors"
+                  className="bg-secondary rounded-[8px] hover:bg-secondary/90 text-gray-800 px-6 py-3  font-medium inline-flex items-center transition-colors"
                 >
                   Visítanos
                   <MapPin className="ml-2 h-5 w-5" />
@@ -295,18 +295,18 @@ export default function Home() {
                   temporada.
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="bg-white/10 p-4 rounded-lg">
+                  <div className="bg-white/10 p-4 rounded-[8px]">
                     <h3 className="font-brand font-medium text-lg mb-2">Desayunos</h3>
                     <p className="text-white/80">Disponibles desde las 6:00 AM</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-lg">
+                  <div className="bg-white/10 p-4 rounded-[8px]">
                     <h3 className="font-brand font-medium text-lg mb-2">Almuerzos</h3>
                     <p className="text-white/80">Menú diario de 12:00 PM a 3:00 PM</p>
                   </div>
                 </div>
                 <Link
                   href="#"
-                  className="bg-secondary text-gray-800 hover:bg-secondary/90 px-6 py-3 rounded-md font-medium inline-flex items-center transition-colors"
+                  className="bg-secondary text-gray-800 hover:bg-secondary/90 px-6 py-3 rounded-[8px] font-medium inline-flex items-center transition-colors"
                 >
                   Ver Menú Completo
                   <ChevronRight className="ml-2 h-5 w-5" />
@@ -481,7 +481,7 @@ export default function Home() {
                 />
                 <button
                   type="submit"
-                  className="bg-primary rounded-[8px] hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium transition-colors whitespace-nowrap"
+                  className="bg-primary rounded-[8px] hover:bg-primary/90 text-white px-6 py-3 font-medium transition-colors whitespace-nowrap"
                 >
                   Suscribirme
                 </button>
