@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight, MapPin, Clock, Phone, Instagram, Facebook } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -9,16 +10,15 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="bg-primary rounded-full p-2">
+            <div className=" rounded-full p-2">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="/logoPanamericana.png?height=100&width=40"
                 alt="Panamericana Logo"
                 width={40}
                 height={40}
-                className="h-8 w-8"
+                className=" w-[10rem] h-[6rem] object-contain"
               />
             </div>
-            <span className="font-brand text-2xl font-bold text-primary">Panamericana</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#about" className="font-brand text-gray-800 hover:text-primary transition-colors">
@@ -53,10 +53,10 @@ export default function Home() {
         <section className="relative h-[85vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/placeholder.svg?height=1080&width=1920"
+              src="/banner.webp?height=1080&width=1920"
               alt="Freshly baked bread"
               fill
-              className="object-cover brightness-[0.85]"
+              className="object-cover brightness-[0.95] rounded-[10px]"
               priority
             />
           </div>
@@ -69,14 +69,14 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="#products"
-                  className="bg-primary rounded-md  hover:bg-primary/90 text-white px-6 py-3  font-medium inline-flex items-center transition-colors"
+                  className="bg-primary rounded-[8px]  hover:bg-primary/90 text-white px-6 py-3  font-medium inline-flex items-center transition-colors"
                 >
                   Nuestros Productos
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   href="#location"
-                  className="bg-secondary hover:bg-secondary/90 text-gray-800 px-6 py-3 rounded-md font-medium inline-flex items-center transition-colors"
+                  className="bg-secondary rounded-[8px] hover:bg-secondary/90 text-gray-800 px-6 py-3 rounded-md font-medium inline-flex items-center transition-colors"
                 >
                   Visítanos
                   <MapPin className="ml-2 h-5 w-5" />
@@ -110,7 +110,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-lg overflow-hidden">
+              <div className="md:w-1/2 relative bg-red-500 h-80 md:h-96 w-full rounded-lg overflow-hidden">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Panadería Panamericana a través de los años"
@@ -383,7 +383,7 @@ export default function Home() {
         </section>
 
         {/* Location Section */}
-        <section id="location" className="py-20 bg-gray-50">
+        <section id="location" className="py-20 h-auto bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="font-brand text-3xl md:text-4xl font-bold text-center text-primary mb-12">Encuéntranos</h2>
             <div className="flex flex-col md:flex-row gap-8">
@@ -394,22 +394,21 @@ export default function Home() {
                     <MapPin className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <p className="font-brand font-medium">Dirección</p>
-                      <p className="text-gray-600">Calle Principal #123, La Dorada, Caldas</p>
+                      <p className="text-gray-600">Calle 14 con Cra. 4 – Centro de La Dorada, Caldas.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Phone className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <p className="font-brand font-medium">Teléfono</p>
-                      <p className="text-gray-600">+57 123 456 7890</p>
+                      <p className="text-gray-600">68370239</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Clock className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <p className="font-brand font-medium">Horario</p>
-                      <p className="text-gray-600">Lunes a Sábado: 6:00 AM - 8:00 PM</p>
-                      <p className="text-gray-600">Domingo: 7:00 AM - 2:00 PM</p>
+                      <p className="text-gray-600">Abierto 24/7</p>
                     </div>
                   </div>
                 </div>
@@ -433,16 +432,38 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="md:w-1/2 h-80 md:h-auto rounded-xl overflow-hidden">
+              <div className="md:w-1/2 rounded-xl">
                 {/* This would be replaced with an actual map component */}
-                <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                  <p className="text-gray-600">Mapa de ubicación</p>
-                </div>
+                <section id="location" className="w-full h-full">
+                  <div className="container mx-auto max-w-4xl">
+                    {/* <h2 className="text-3xl font-bold text-center mb-8">Nuestra Ubicación</h2> */}
+                    <div className="w-full h-full rounded-[8px] max-w-4xl mx-auto  overflow-hidden shadow-lg">
+                      <a
+                        href="https://www.google.com/maps/place/Panadería+Panamericana,+La+Dorada,+Caldas"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <iframe
+                          src="https://www.google.com/maps?q=5.4528557,-74.66424&z=20&output=embed"
+                          width="100%"
+                          height="400"
+                          style={{ border: "0" }}
+                          allowFullScreen
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+
+                      </a>
+                    </div>
+
+                  </div>
+                </section>
               </div>
             </div>
           </div>
         </section>
-
+ 
         {/* Newsletter/Contact Section */}
         <section className="py-16 bg-secondary text-gray-800">
           <div className="container mx-auto px-4">
@@ -455,12 +476,12 @@ export default function Home() {
                 <input
                   type="email"
                   placeholder="Tu correo electrónico"
-                  className="flex-grow px-4 py-3 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="flex-grow px-4 py-3 rounded-[8px] text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium transition-colors whitespace-nowrap"
+                  className="bg-primary rounded-[8px] hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium transition-colors whitespace-nowrap"
                 >
                   Suscribirme
                 </button>
@@ -476,16 +497,15 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="bg-primary rounded-full p-2">
-                  <Image
-                    src="/placeholder.svg?height=40&width=40"
-                    alt="Panamericana Logo"
-                    width={40}
-                    height={40}
-                    className="h-8 w-8"
-                  />
-                </div>
-                <span className="font-brand text-2xl font-bold text-white">Panamericana</span>
+
+                <Image
+                  src="/whiteLogo.png?height=500&width=250"
+                  alt="Panamericana Logo"
+                  width={150}
+                  height={150}
+                  className="object-contain"
+                />
+
               </div>
               <p className="max-w-xs text-gray-400">
                 18 años de tradición panadera en La Dorada, Caldas. Horneando con pasión desde 2006.

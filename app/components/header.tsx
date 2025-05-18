@@ -15,14 +15,13 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2">
             <div className="bg-primary rounded-full p-2">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="/logoPanamericana.png?height=40&width=40"
                 alt="Panamericana Logo"
                 width={40}
                 height={40}
                 className="h-8 w-8"
               />
             </div>
-            <span className="font-brand text-2xl font-bold text-primary">Panamericana</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#about" className="font-brand rounded-lg text-gray-800 hover:text-primary transition-colors px-4">
