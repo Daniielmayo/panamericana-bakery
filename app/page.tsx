@@ -257,7 +257,7 @@ export default function Home() {
 
                   />
                 </div>
-                <h3 className="font-brand text-xl font-bold text-primary mb-2">Croissant Clásico</h3>
+                <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Abuela</h3>
                 <p className="text-gray-600 mb-4">Horneado diariamente, con capas perfectas y mantequilla francesa.</p>
                 <span className="text-primary font-bold">$3.500</span>
               </div>
@@ -272,9 +272,9 @@ export default function Home() {
                     className="w-full h-full object-cover rounded-[18px]"
                   />
                 </div>
-                <h3 className="font-brand text-xl font-bold text-primary mb-2">Café Especial</h3>
+                <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Italiano</h3>
                 <p className="text-gray-600 mb-4">
-                  Café colombiano de origen único, tostado en nuestras instalaciones.
+                  Pan italiano con masa madre y horneado en horno de piedra.
                 </p>
                 <span className="text-primary font-bold">$4.000</span>
               </div>
@@ -340,7 +340,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-brand font-medium">María Castillo</h3>
-                    <p className="text-sm text-gray-500">Cliente desde 2010</p>
+                    <p className="text-sm text-gray-500">Cliente desde 2022</p>
                   </div>
                 </div>
                 <p className="text-gray-700">
@@ -356,7 +356,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-brand font-medium">Juan Ramírez</h3>
-                    <p className="text-sm text-gray-500">Cliente desde 2015</p>
+                    <p className="text-sm text-gray-500">Cliente desde 2025</p>
                   </div>
                 </div>
                 <p className="text-gray-700">
