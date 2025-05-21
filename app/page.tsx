@@ -112,7 +112,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-[18px] overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/about.jpg?height=600&width=800"
                   alt="Panadería Panamericana a través de los años"
                   fill
                   className="object-cover"
@@ -136,14 +136,14 @@ export default function Home() {
               <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
                 <div className="h-48 relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/panes.jpg?height=400&width=600"
                     alt="Variedad de panes artesanales"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="font-brand text-xl font-bold text-primary mb-2">Panes Artesanales</h3>
+                  <h3 className="font-brand text-xl font-bold text-primary mb-2">Panes</h3>
                   <p className="text-gray-600 mb-4">
                     Elaborados con masa madre y horneados en horno de piedra para lograr ese sabor tradicional.
                   </p>
@@ -158,7 +158,7 @@ export default function Home() {
               <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
                 <div className="h-48 relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/pasteleria.jpg?height=400&width=600"
                     alt="Pasteles y postres"
                     fill
                     className="object-cover"
@@ -180,7 +180,7 @@ export default function Home() {
               <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
                 <div className="h-48 relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/restaurante.jpg?height=400&width=600"
                     alt="Servicio de restaurante"
                     fill
                     className="object-cover"
@@ -202,7 +202,7 @@ export default function Home() {
               <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
                 <div className="h-48 relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/bebidas.jpg?height=400&width=600"
                     alt="Bebidas y cafés"
                     fill
                     className="object-cover"
@@ -312,9 +312,9 @@ export default function Home() {
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Link>
               </div>
-              <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-lg overflow-hidden order-1 md:order-2">
+              <div className="md:w-1/2  relative h-80 md:h-96 w-full rounded-[18px] overflow-hidden order-1 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/RESTAURANTE2.jpeg?height=600&width=800"
                   alt="Interior del restaurante Panamericana"
                   fill
                   className="object-cover"
