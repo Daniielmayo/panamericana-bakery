@@ -53,14 +53,14 @@ export default function Home() {
         <section className="relative h-[85vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/banner.webp?height=1080&width=1920"
+              src="/bannerPrincipal.jpg?height=1080&width=1920"
               alt="Freshly baked bread"
               fill
               className="object-cover brightness-[0.95] rounded-[10px]"
               priority
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent z-10"></div>
+          <div className="absolute inset-0 bg-black/50 z-10"></div>
           <div className="container mx-auto px-4 relative z-20">
             <div className="max-w-2xl text-white">
               <h1 className="font-brand text-5xl md:text-6xl font-bold mb-2">Tradición y sabor desde 2006</h1>
@@ -231,28 +231,30 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col items-center text-center">
-                <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                <div className="w-32 h-32 rounded-[18px] bg-primary/10 flex items-center justify-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Pan Artesanal"
-                    width={80}
-                    height={80}
-                    className="h-16 w-16"
+                    src="/panAliñado.jpg?height=80&width=80"
+                    alt="Croissant"
+                    width={100}
+                    height={100}
+                    className="w-full h-full object-cover rounded-[18px]"
+
                   />
                 </div>
-                <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Campesino</h3>
+                <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Aliñado</h3>
                 <p className="text-gray-600 mb-4">Nuestro pan más vendido, con corteza crujiente y miga suave.</p>
                 <span className="text-primary font-bold">$5.000</span>
               </div>
 
               <div className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col items-center text-center">
-                <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                <div className="w-32 h-32 rounded-[18px] bg-primary/10 flex items-center justify-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=80&width=80"
+                    src="/panAbuela.jpg?height=80&width=80"
                     alt="Croissant"
-                    width={80}
-                    height={80}
-                    className="h-16 w-16"
+                    width={100}
+                    height={100}
+                    className="w-full h-full object-cover rounded-[18px]"
+
                   />
                 </div>
                 <h3 className="font-brand text-xl font-bold text-primary mb-2">Croissant Clásico</h3>
@@ -261,13 +263,13 @@ export default function Home() {
               </div>
 
               <div className="bg-white rounded-xl shadow-md overflow-hidden p-6 flex flex-col items-center text-center">
-                <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                <div className="w-32 h-32 rounded-[18px] bg-primary/10 flex items-center justify-center mb-4">
                   <Image
-                    src="/placeholder.svg?height=80&width=80"
-                    alt="Café"
-                    width={80}
-                    height={80}
-                    className="h-16 w-16"
+                    src="/panItaliano.jpg?height=80&width=80"
+                    alt="Croissant"
+                    width={100}
+                    height={100}
+                    className="w-full h-full object-cover rounded-[18px]"
                   />
                 </div>
                 <h3 className="font-brand text-xl font-bold text-primary mb-2">Café Especial</h3>
@@ -314,7 +316,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/2  relative h-80 md:h-96 w-full rounded-[18px] overflow-hidden order-1 md:order-2">
                 <Image
-                  src="/RESTAURANTE2.jpeg?height=600&width=800"
+                  src="/comidas-de-colombia.jpg?height=600&width=800"
                   alt="Interior del restaurante Panamericana"
                   fill
                   className="object-cover"
@@ -401,7 +403,7 @@ export default function Home() {
                     <Phone className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <p className="font-brand font-medium">Teléfono</p>
-                      <p className="text-gray-600">68370239</p>
+                      <p className="text-gray-600">67427923</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -463,7 +465,7 @@ export default function Home() {
             </div>
           </div>
         </section>
- 
+
         {/* Newsletter/Contact Section */}
         <section className="py-16 bg-secondary text-gray-800">
           <div className="container mx-auto px-4">
