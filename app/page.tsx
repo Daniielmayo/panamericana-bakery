@@ -145,8 +145,7 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="font-brand text-xl font-bold text-primary mb-2">Panes</h3>
                   <p className="text-gray-600 mb-4">
-                    Elaborados con masa madre y horneados en horno de piedra para lograr ese sabor tradicional.
-                  </p>
+                    Hechos como antes, con calma y cuidado, para que disfrutes ese sabor de pan recién hecho que nunca pasa de moda.                  </p>
                   <Link href="#" className="text-primary hover:text-primary/80 font-medium inline-flex items-center">
                     Ver variedades
                     <ChevronRight className="ml-1 h-4 w-4" />
@@ -242,7 +241,7 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Aliñado</h3>
-                <p className="text-gray-600 mb-4">Nuestro pan más vendido, con corteza crujiente y miga suave.</p>
+                <p className="text-gray-600 mb-4">Suave, sabroso y lleno de aroma. Perfecto para quienes disfrutan el pan con un toque especial de sabor en cada mordisco.</p>
                 <span className="text-primary font-bold">$5.000</span>
               </div>
 
@@ -258,7 +257,7 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Abuela</h3>
-                <p className="text-gray-600 mb-4">Horneado diariamente, con capas perfectas y mantequilla francesa.</p>
+                <p className="text-gray-600 mb-4"> Esponjoso, dulce y lleno de tradición. Un pan que sabe a hogar y a recetas que nunca se olvidan.</p>
                 <span className="text-primary font-bold">$3.500</span>
               </div>
 
@@ -274,8 +273,7 @@ export default function Home() {
                 </div>
                 <h3 className="font-brand text-xl font-bold text-primary mb-2">Pan Italiano</h3>
                 <p className="text-gray-600 mb-4">
-                  Pan italiano con masa madre y horneado en horno de piedra.
-                </p>
+                  Corteza crujiente, miga suave y esponjosa. Ideal para acompañar pastas o sopas.                </p>
                 <span className="text-primary font-bold">$4.000</span>
               </div>
             </div>
@@ -403,7 +401,7 @@ export default function Home() {
                     <Phone className="h-5 w-5 text-primary mt-1 mr-3" />
                     <div>
                       <p className="font-brand font-medium">Teléfono</p>
-                      <p className="text-gray-600">67427923</p>
+                      <p className="text-gray-600">67427932</p>
                     </div>
                   </div>
                   <div className="flex items-start">
